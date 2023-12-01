@@ -15,12 +15,6 @@ from aiogram.fsm.state import State, StatesGroup
 
 from db_func import get_user_role
 
-'''
-admin_id = 453578228
-manager_id = 4535782  #28
-user_id = 45357822  #8
-'''
-
 router = Router()
 
 class RegForm(StatesGroup):
